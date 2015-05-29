@@ -41,8 +41,7 @@ function deleteText(){
   localStorage.removeItem(key);
 
   // 要素の削除
-  tParent = t.parent();
-  tParent.remove();
+  t.parent().remove();
 
  }
 }
